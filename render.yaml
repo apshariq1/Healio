@@ -28,3 +28,7 @@ services:
         sync: false
       - key: GOOGLE_CLIENT_ID
         sync: false
+      - key: VITE_GOOGLE_CLIENT_ID
+        sync: false                               # set manually in Render dashboard
+      - key: VITE_API_URL
+        value: "https://healio.onrender.com/api"
