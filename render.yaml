@@ -32,3 +32,9 @@ services:
         sync: false                               # set manually in Render dashboard
       - key: VITE_API_URL
         value: "https://healio-wpvu.onrender.com/api"
+      - key: CLIENT_URL
+        value: "https://healio.dpdns.org"
+      - key: APP_URL
+        value: "https://healio.dpdns.org"
+      - key: VITE_API_URL
+        value: "https://healio.dpdns.org/api"
