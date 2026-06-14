@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node --watch server.js",
-    "test": "jest --coverage --forceExit"
+    "test": "jest --coverage --forceExit",
+    "postinstall": "npm run install:backend && npm run install:frontend"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",

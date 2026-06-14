@@ -16,9 +16,13 @@ services:
         generateValue: true
       - key: CLIENT_URL
         value: "https://healio.onrender.com"
+      - key: APP_URL                              # ← added
+        value: "https://healio.onrender.com"      # ← same URL as CLIENT_URL
       - key: MONGODB_URI
         sync: false
       - key: EDAMAM_APP_ID
+        sync: false
+      - key: EDAMAM_APP_KEY                       # ← added (was missing!)
         sync: false
       - key: EDAMAM_APP_KEY
         sync: false
