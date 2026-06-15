@@ -5,7 +5,10 @@ A full-stack diet & nutrition planner that helps users track daily meals, log bo
 Built with **React + Vite** (frontend) and **Express + MongoDB** (backend).
 
 ---
+## Demo URL
 
+https://healio-wpvu.onrender.com
+---
 ## Features
 
 - **Meal Logging** — Track breakfast, lunch, dinner, and snacks with food search powered by [Open Food Facts](https://world.openfoodfacts.org/)
