@@ -7,7 +7,7 @@ Built with **React + Vite** (frontend) and **Express + MongoDB** (backend).
 ---
 ## Demo URL
 
-https://healio-wpvu.onrender.com
+https://healio.dpdns.org
 ---
 ## Features
 
